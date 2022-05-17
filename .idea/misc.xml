@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/emons/Desktop/CS 349/A4-CS349-starter/a4-starter/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/emons/Desktop/CS 349/A4-CS349-starter/a4-starter/app/src/main/res/layout/fragment_addition.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/emons/Desktop/CS 349/A4-CS349-starter/a4-starter/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/emons/Desktop/CS 349/A4-CS349-starter/a4-starter/app/src/main/res/layout/fragment_library.xml" value="0.2753623188405797" />
+        <entry key="..\:/Users/emons/Desktop/esenmaju/a4/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/emons/Desktop/esenmaju/a4/app/src/main/res/layout/fragment_addition.xml" value="0.25" />
+        <entry key="..\:/Users/emons/Desktop/esenmaju/a4/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/emons/Desktop/esenmaju/a4/app/src/main/res/layout/fragment_library.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/emons/Desktop/esenmaju/a4/app/src/main/res/layout/gesture_item.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.3921875" />
+        <entry key="app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.3921875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_addition.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.259963768115942" />
+        <entry key="app/src/main/res/layout/fragment_library.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/layout/gesture_item.xml" value="0.11231884057971014" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3921875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

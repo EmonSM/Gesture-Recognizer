@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.a4starter.CanvasView
+            android:id="@+id/canvasView"
+            android:layout_width="match_parent"
+            android:layout_height= "375dp"/>
+        <Button
+            android:id="@+id/recognizeButton"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/canvasView"
+            android:layout_alignParentStart="true"
+            android:text="@string/recognize"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorButton"/>
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_width="96dp"
+            android:layout_height= "wrap_content"
+            android:layout_below="@id/canvasView"
+            android:layout_alignParentEnd="true"
+            android:text="@string/clear"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorButton"/>
+        <ImageView
+            android:id="@+id/firstGestureThumbnail"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_below="@id/recognizeButton"
+            android:layout_alignParentStart="true"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/first_gesture_thumbnail" />
+        <TextView
+            android:id="@+id/firstGestureName"
+            android:layout_marginStart="40dp"
+            android:layout_below="@id/firstGestureThumbnail"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"/>
+        <ImageView
+            android:id="@+id/secondGestureThumbnail"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_below="@id/recognizeButton"
+            android:layout_toEndOf="@id/firstGestureThumbnail"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/second_gesture_thumbnail" />
+        <TextView
+            android:id="@+id/secondGestureName"
+            android:layout_marginStart="40dp"
+            android:layout_below="@id/secondGestureThumbnail"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"/>
+        <ImageView
+            android:id="@+id/thirdGestureThumbnail"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_below="@id/recognizeButton"
+            android:layout_toEndOf="@id/secondGestureThumbnail"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/third_gesture_thumbnail" />
+        <TextView
+            android:id="@+id/thirdGestureName"
+            android:layout_marginEnd="50dp"
+            android:layout_below="@id/thirdGestureThumbnail"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
